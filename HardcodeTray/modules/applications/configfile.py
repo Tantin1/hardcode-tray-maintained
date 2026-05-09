@@ -21,14 +21,15 @@ class ConfigFileApplication(Application):
         from HardcodeTray.app import App
         from HardcodeTray.enum import Action
 
-        config_file = self.parser.config_file
+        from HardcodeTray.const import USERHOME
+config_file = self.parser.config_file.replace("{userhome}", USERHOME)
         icon_size = App.icon_size()
 
         with open(config_file, "r") as f:
             content = f.read()
 
         if action == Action.APPLY:
-            output_dir = self.parser.icons_output
+            output_dir = self.parser.icons_output.replace("{userhome}", USERHOME)
             makedirs(output_dir, exist_ok=True)
             new_content = self._set_key(content, self.parser.default_key, "false")
 
