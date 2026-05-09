@@ -298,3 +298,9 @@ def get_exact_folder(key, directory, condition):
         directory = directory.replace(key, exact_directory)
 
     return directory
+
+
+def set_user_permissions(target):
+    """Set permissions to user instead of root."""
+    from HardcodeTray.const import USERNAME
+    execute(["chown", "-R", "%s:%s" % (USERNAME, USERNAME), target])
