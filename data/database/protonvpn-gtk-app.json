@@ -1,0 +1,61 @@
+{
+    "name": "ProtonVPN GTK App",
+    "app_path": [
+        "/usr/lib/python3.14/site-packages/proton/vpn/",
+        "/usr/lib/python3.13/site-packages/proton/vpn/",
+        "/usr/lib/python3.12/site-packages/proton/vpn/",
+        "/usr/lib/python3.11/site-packages/proton/vpn/",
+        "/usr/lib/python3.10/site-packages/proton/vpn/",
+        "/usr/lib/python3.9/site-packages/proton/vpn/",
+        "/usr/lib/python3.8/site-packages/proton/vpn/",
+        "/usr/lib/python3.7/site-packages/proton/vpn/",
+        "/usr/lib/python3.6/site-packages/proton/vpn/",
+        "{userhome}/.local/lib/python3.14/site-packages/proton/vpn/",
+        "{userhome}/.local/lib/python3.13/site-packages/proton/vpn/",
+        "{userhome}/.local/lib/python3.12/site-packages/proton/vpn/",
+        "{userhome}/.local/lib/python3.11/site-packages/proton/vpn/",
+        "{userhome}/.local/lib/python3.10/site-packages/proton/vpn/",
+        "{userhome}/.local/lib/python3.9/site-packages/proton/vpn/",
+        "{userhome}/.local/lib/python3.8/site-packages/proton/vpn/",
+        "{userhome}/.local/lib/python3.7/site-packages/proton/vpn/",
+        "{userhome}/.local/lib/python3.6/site-packages/proton/vpn/"
+    ],
+    "icons_path": [
+        "/usr/lib/python3.14/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "/usr/lib/python3.13/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "/usr/lib/python3.12/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "/usr/lib/python3.11/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "/usr/lib/python3.10/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "/usr/lib/python3.9/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "/usr/lib/python3.8/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "/usr/lib/python3.7/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "/usr/lib/python3.6/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "{userhome}/.local/lib/python3.14/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "{userhome}/.local/lib/python3.13/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "{userhome}/.local/lib/python3.12/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "{userhome}/.local/lib/python3.11/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "{userhome}/.local/lib/python3.10/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "{userhome}/.local/lib/python3.9/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "{userhome}/.local/lib/python3.8/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "{userhome}/.local/lib/python3.7/site-packages/proton/vpn/app/gtk/assets/icons/",
+        "{userhome}/.local/lib/python3.6/site-packages/proton/vpn/app/gtk/assets/icons/"
+    ],
+    "icons": {
+        "sign": {
+            "original": "proton-vpn-sign.svg",
+            "theme": "protonvpn-tray"
+        },
+        "connected": {
+            "original": "state-connected.svg",
+            "theme": "protonvpngui-connected"
+        },
+        "disconnected": {
+            "original": "state-disconnected.svg",
+            "theme": "protonvpngui-disconnected"
+        },
+        "no-network": {
+            "original": "state-error.svg",
+            "theme": "protonvpngui-no-network"
+        }
+    }
+}

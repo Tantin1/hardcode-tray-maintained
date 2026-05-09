@@ -1,0 +1,17 @@
+{
+    "name": "Outlook for Linux",
+    "app_path": [
+        "/opt/outlook-for-linux/"
+    ],
+    "icons_path": [
+        "/opt/outlook-for-linux/resources/"
+    ],
+    "binary": "app.asar",
+    "script": "electron",
+    "icons": {
+        "tray": {
+            "original": "app/assets/icons/icon-96x96.png",
+            "theme": "applications-email-panel.svg"
+        }
+    }
+}
