@@ -1,13 +1,11 @@
 {
     "name": "Steam",
     "app_path": [
-        "/usr/bin/steam",
         "{userhome}/.steam/",
         "/var/lib/flatpak/app/com.valvesoftware.Steam/"
     ],
     "icons_path": [
         "/usr/share/pixmaps/",
-        "{userhome}/.local/share/Steam/public/",
         "/var/lib/flatpak/app/com.valvesoftware.Steam/current/active/files/share/pixmaps/"
     ],
     "icons": {
