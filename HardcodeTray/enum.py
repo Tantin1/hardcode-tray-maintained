@@ -75,6 +75,7 @@ class ApplicationType:
     NWJS = "NWJSApplication"
     QT = "QtApplication"
     APPLICATION = "Application"
+    CONFIGFILE = "ConfigFileApplication"
 
     @staticmethod
     def choices():

@@ -22,7 +22,7 @@ class ConfigFileApplication(Application):
         from HardcodeTray.enum import Action
 
         from HardcodeTray.const import USERHOME
-config_file = self.parser.config_file.replace("{userhome}", USERHOME)
+        config_file = self.parser.config_file.replace("{userhome}", USERHOME)
         icon_size = App.icon_size()
 
         with open(config_file, "r") as f:

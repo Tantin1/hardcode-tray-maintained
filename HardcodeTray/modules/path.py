@@ -91,7 +91,7 @@ class Path:
                 else:
                     self.path = self.path.replace(key, str(value))
 
-        if self.parser.script and self.type == "icons_path":
+        if self.parser.script and self.parser.script != "configfile" and self.type == "icons_path":
             binary_file = path.join(self.path, self.parser.binary)
             self._exists = path.exists(self.path) and path.exists(binary_file)
         else:

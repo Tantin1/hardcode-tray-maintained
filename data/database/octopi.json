@@ -1,0 +1,35 @@
+{
+    "name": "Octopi",
+    "app_path": [
+        "/usr/bin/"
+    ],
+    "icons_path": [
+        "/usr/bin/"
+    ],
+    "script": "configfile",
+    "config_file": "{userhome}/.config/octopi/octopi.conf",
+    "icons_output": "{userhome}/.config/octopi/icons",
+    "default_key": "Use_Default_App_Icon",
+    "icons": {
+        "red": {
+            "original": "octopi-error",
+            "theme": "octopi-error",
+            "config_key": "Octopi_Red_Icon_Path"
+        },
+        "yellow": {
+            "original": "octopi-info",
+            "theme": "octopi-info",
+            "config_key": "Octopi_Yellow_Icon_Path"
+        },
+        "green": {
+            "original": "octopi-ok",
+            "theme": "octopi-ok",
+            "config_key": "Octopi_Green_Icon_Path"
+        },
+        "busy": {
+            "original": "octopi-indicator",
+            "theme": "octopi-indicator",
+            "config_key": "Octopi_Busy_Icon_Path"
+        }
+    }
+}

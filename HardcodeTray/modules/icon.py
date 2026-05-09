@@ -78,6 +78,7 @@ class Icon:
             self.theme_ext = get_extension(self.theme)
             self.orig_ext = get_extension(orig_icon)
             self.icon_size = self.get_icon_size(App.icon_size())
+            self.config_key = self.icon_data.get("config_key") if isinstance(self.icon_data, dict) else None
             self._exists = True
 
             if (not isinstance(self.icon_data, str)
