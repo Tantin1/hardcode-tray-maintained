@@ -69,6 +69,15 @@ class Icon:
             theme_icon = self.icon_data["theme"]
 
         base_name = path.splitext(theme_icon)[0]
+        if path.isabs(base_name):
+            self.original = orig_icon
+            self.theme = theme_icon
+            self.theme_ext = get_extension(theme_icon)
+            self.orig_ext = get_extension(orig_icon)
+            self.icon_size = self.get_icon_size(App.icon_size())
+            self.config_key = self.icon_data.get("config_key") if isinstance(self.icon_data, dict) else None
+            self._exists = True
+            return
         theme = Icon.get_theme(orig_icon)
         theme_icon = theme.lookup_icon(base_name, App.icon_size(), 0)
 
